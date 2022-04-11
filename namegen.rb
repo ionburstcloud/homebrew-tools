@@ -19,7 +19,7 @@ class Namegen < Formula
       url "https://namegen.s3.fr-par.scw.cloud/namegen-#{version}-linux-arm64.zip"
       sha256 "985e273d46dfffa0e80cc6564a70b1b18af33d18b892bdaec938f124ce8af9ce"
     else
-      url "https://namegen.s3.fr-par.scw.cloud/namegen-#{version}-linux-amd64.zip}"
+      url "https://namegen.s3.fr-par.scw.cloud/namegen-#{version}-linux-amd64.zip"
       sha256 "865160b7ec71ac14f0b4e916403b6825e0473fa1bfab863dfb02172f7951f8f3"
     end
   end
