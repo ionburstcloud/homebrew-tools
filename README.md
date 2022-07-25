@@ -1,8 +1,10 @@
 # Ionburst Cloud Homebrew Tools
 
-## How do I install this formula?
+## How do I install these formulae?
 
 `brew install ionburstcloud/tools/namegen`
+
+`brew install ionburstcloud/tools/ioncli-develop`
 
 Or `brew tap ionburstcloud/tools` and then `brew install namegen`.
 
