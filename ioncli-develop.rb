@@ -1,5 +1,5 @@
 class IoncliDevelop < Formula
-  version = "1.2.0-develop.3"
+  version = "1.2.0-develop.6"
 
   desc "ioncli - CLI for Ionburst Cloud"
   homepage "https://github.com/ionburstcloud/ionburst-sdk-go"
@@ -9,18 +9,18 @@ class IoncliDevelop < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://ioncli.s3.fr-par.scw.cloud/develop/ioncli-#{version}-darwin-arm64.zip"
-      sha256 "a1740b320c210c4442918bdc277ad517de320a313d60b15ad2003779d15e394b"
+      sha256 "731a3af66154f4398b78b0ee0e6d35ef34c2e7f84e04b482665f06e2aab37ae3"
     else
       url "https://ioncli.s3.fr-par.scw.cloud/develop/ioncli-#{version}-darwin-amd64.zip"
-      sha256 "c45952dc8f61a9d5d7809a7f9394657ba7457fa472cc3c7b534afc8bea3a2df3"
+      sha256 "5b81622f3544f01f490b31fa7d56bda14c1f9d1d3c3fcbde04502e3e5e04ae94"
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
       url "https://ioncli.s3.fr-par.scw.cloud/develop/ioncli-#{version}-linux-arm64.tar.bz2"
-      sha256 "dae2fe975907cc1c25c0222a15e19ebc98ac1631128c4ff68ddd29eaeb9898e3"
+      sha256 "138c774fb91dfb4f1d0dd6b41d84ac7b0eb25ae4738d2011ff750212231e9cf5"
     else
       url "https://ioncli.s3.fr-par.scw.cloud/develop/ioncli-#{version}-linux64.tar.bz2"
-      sha256 "e98cfc69abdf6b86c5abbfc07b58c778dff19b9c535807d5f59a4bf6c7092ea7"
+      sha256 "138c774fb91dfb4f1d0dd6b41d84ac7b0eb25ae4738d2011ff750212231e9cf5"
     end
   end
 
