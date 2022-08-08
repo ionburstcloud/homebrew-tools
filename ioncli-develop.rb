@@ -9,10 +9,10 @@ class IoncliDevelop < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://ioncli.s3.fr-par.scw.cloud/develop/ioncli-#{version}-darwin-arm64.zip"
-      sha256 "731a3af66154f4398b78b0ee0e6d35ef34c2e7f84e04b482665f06e2aab37ae3"
+      sha256 "4c78877346550bd3246528a9a9095069c06ebd57cf723fb5392787d75059a0f6"
     else
       url "https://ioncli.s3.fr-par.scw.cloud/develop/ioncli-#{version}-darwin-amd64.zip"
-      sha256 "5b81622f3544f01f490b31fa7d56bda14c1f9d1d3c3fcbde04502e3e5e04ae94"
+      sha256 "c38d894785ba8cc2f443929ef7463c8c397d8238ff14ce27d0c6c5664cb94b99"
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
