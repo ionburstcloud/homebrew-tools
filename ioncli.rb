@@ -1,4 +1,4 @@
-class IoncliDevelop < Formula
+class Ioncli < Formula
     version = "1.2.0"
   
     desc "ioncli - CLI for Ionburst Cloud"
