@@ -7,6 +7,8 @@ class IoncliDevelop < Formula
   license "Apache-2.0"
   version version
 
+  conflicts_with "ioncli"
+
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://ioncli.s3.fr-par.scw.cloud/develop/ioncli-#{version}-darwin-arm64.zip"
