@@ -4,6 +4,7 @@ class IoncliDevelop < Formula
   desc "ioncli - CLI for Ionburst Cloud"
   homepage "https://github.com/ionburstcloud/ionburst-sdk-go"
   url "https://github.com/ionburstcloud/ionburst-sdk-go"
+  license "Apache-2.0"
   version version
 
   if OS.mac?
