@@ -1,10 +1,20 @@
 # Ionburst Cloud Homebrew Tools
 
-## How do I install these formulae?
+## IonFS
+
+For stable releases: `brew install ionburstcloud/tools/ionfs`
+
+For develop releases: `brew install ionburstcloud/tools/ionfs-develop`
+
+## ioncli
+
+For stable releases: `brew install ionburstcloud/tools/ioncli`
+
+For develop releases: `brew install ionburstcloud/tools/ioncli-develop`
+
+## namegen
 
 `brew install ionburstcloud/tools/namegen`
-
-`brew install ionburstcloud/tools/ioncli-develop`
 
 Or `brew tap ionburstcloud/tools` and then `brew install namegen`.
 
