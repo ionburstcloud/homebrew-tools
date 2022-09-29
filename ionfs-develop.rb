@@ -1,4 +1,4 @@
-class IoncliDevelop < Formula
+class IonfsDevelop < Formula
     version = "0.3.0-develop.5"
   
     desc "IonFS CLI (develop branch)"
