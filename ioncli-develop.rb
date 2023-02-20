@@ -12,18 +12,18 @@ class IoncliDevelop < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://ioncli.s3.fr-par.scw.cloud/develop/ioncli-#{version}-darwin-arm64.zip"
-      sha256 "4c78877346550bd3246528a9a9095069c06ebd57cf723fb5392787d75059a0f6"
+      sha256 "862dada6afe5fd5cab9199e215e134bcd498153a50dd567fdce3e730b894e0ed"
     else
       url "https://ioncli.s3.fr-par.scw.cloud/develop/ioncli-#{version}-darwin-amd64.zip"
-      sha256 "c38d894785ba8cc2f443929ef7463c8c397d8238ff14ce27d0c6c5664cb94b99"
+      sha256 "1b43c6bd10c4f9f51d851bd23f7b612b3123f7371792ff3ad1763a2509a80a6b"
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
       url "https://ioncli.s3.fr-par.scw.cloud/develop/ioncli-#{version}-linux-arm64.tar.bz2"
-      sha256 "138c774fb91dfb4f1d0dd6b41d84ac7b0eb25ae4738d2011ff750212231e9cf5"
+      sha256 "08c807137c4f9327407f0f23c8a582297b6084ad4dd55286649596a85b45d594"
     else
       url "https://ioncli.s3.fr-par.scw.cloud/develop/ioncli-#{version}-linux64.tar.bz2"
-      sha256 "138c774fb91dfb4f1d0dd6b41d84ac7b0eb25ae4738d2011ff750212231e9cf5"
+      sha256 "21c474afb34dbeb80de18f6f17c409ead526dd44c5a0ad23bae862fd3e359693"
     end
   end
 
