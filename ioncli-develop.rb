@@ -1,5 +1,5 @@
 class IoncliDevelop < Formula
-  version = "1.2.0-develop.6"
+  version = "1.2.1-develop.1"
 
   desc "ioncli - CLI for Ionburst Cloud"
   homepage "https://github.com/ionburstcloud/ionburst-sdk-go"
