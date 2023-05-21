@@ -1,5 +1,5 @@
 class IonfsDevelop < Formula
-    version = "0.3.1-develop.1"
+    version = "0.4.0-develop.1"
   
     desc "IonFS CLI (develop branch)"
     homepage "https://github.com/ionburstcloud/ionfs"
@@ -10,18 +10,18 @@ class IonfsDevelop < Formula
     if OS.mac?
       if Hardware::CPU.arm?
         url "https://ionfs.s3.fr-par.scw.cloud/develop/ionfs-#{version}-mac-arm64.tar.bz2"
-        sha256 "aee85d4c287681de010d1685e527a230ba901b9c00bf549206ea629645123e08"
+        sha256 "a24012274dc5b3dc399383143d4862c595c36712646baa713097fdcddcfc5b44"
       else
         url "https://ionfs.s3.fr-par.scw.cloud/develop/ionfs-#{version}-mac.tar.bz2"
-        sha256 "fca2f5657ee775cfddf08829e0df2954600393bda50cee51c1929fb3b94cc2e9"
+        sha256 "d7b8e31a9634098529b0f886ca6d73598c2e3e9cd2ed1ca3a979262a7cc987ad"
       end
     elsif OS.linux?
       if Hardware::CPU.arm?
         url "https://ionfs.s3.fr-par.scw.cloud/develop/ionfs-#{version}-linux-arm64.tar.bz2"
-        sha256 "cafa5f252969fd0353f007a63260ed491d2070a58fc50aff29998ce1334e7b3d"
+        sha256 "d3e17402c7cabc8870f774b21c6293c4950e0e08e542c9d07dc8b44bc8229ea4"
       else
         url "https://ionfs.s3.fr-par.scw.cloud/develop/ionfs-#{version}-linux.tar.bz2"
-        sha256 "501ca17d7874fd630b7970dbe077871557d109f978c30d81b70634f20431f5c5"
+        sha256 "95ead7c471d9d6bdc5bf1b603613109b2ff194f6d5441f930046d08c3297f362"
       end
     end
   
