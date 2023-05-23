@@ -10,10 +10,10 @@ class Ionfs < Formula
     if OS.mac?
       if Hardware::CPU.arm?
         url "https://ionfs.s3.fr-par.scw.cloud/ionfs-#{version}-mac-arm64.tar.bz2"
-        sha256 "3ecd713389fb6d9a23d248a3f55ba706c302ef5b1bc72591cccd22b8f22d94e3"
+        sha256 "658e80ab949bb4f66b8fae88af537a4f86998ba0dfc48c6885834bd71d7d58ac"
       else
         url "https://ionfs.s3.fr-par.scw.cloud/ionfs-#{version}-mac.tar.bz2"
-        sha256 "658e80ab949bb4f66b8fae88af537a4f86998ba0dfc48c6885834bd71d7d58ac"
+        sha256 "3ecd713389fb6d9a23d248a3f55ba706c302ef5b1bc72591cccd22b8f22d94e3"
       end
     elsif OS.linux?
       if Hardware::CPU.arm?
