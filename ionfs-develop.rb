@@ -1,5 +1,5 @@
 class IonfsDevelop < Formula
-    version = "0.4.0-develop.1"
+    version = "0.4.0-develop.2"
   
     desc "IonFS CLI (develop branch)"
     homepage "https://github.com/ionburstcloud/ionfs"
