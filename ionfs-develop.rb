@@ -10,18 +10,18 @@ class IonfsDevelop < Formula
     if OS.mac?
       if Hardware::CPU.arm?
         url "https://ionfs.s3.fr-par.scw.cloud/develop/ionfs-#{version}-mac-arm64.tar.bz2"
-        sha256 "a24012274dc5b3dc399383143d4862c595c36712646baa713097fdcddcfc5b44"
+        sha256 "add8b6e46b1f1d25d71c18da3928e96920d905428664f4b0fdec774ed66169ae"
       else
         url "https://ionfs.s3.fr-par.scw.cloud/develop/ionfs-#{version}-mac.tar.bz2"
-        sha256 "d7b8e31a9634098529b0f886ca6d73598c2e3e9cd2ed1ca3a979262a7cc987ad"
+        sha256 "26e020514b8bc8e340cc91586f3a0a19a765158834cd6bed9c10296326cbaeb1"
       end
     elsif OS.linux?
       if Hardware::CPU.arm?
         url "https://ionfs.s3.fr-par.scw.cloud/develop/ionfs-#{version}-linux-arm64.tar.bz2"
-        sha256 "d3e17402c7cabc8870f774b21c6293c4950e0e08e542c9d07dc8b44bc8229ea4"
+        sha256 "644d217614bedb1da93341511bf2de4956e383ea46e4100c709690e4c99712d3"
       else
         url "https://ionfs.s3.fr-par.scw.cloud/develop/ionfs-#{version}-linux.tar.bz2"
-        sha256 "95ead7c471d9d6bdc5bf1b603613109b2ff194f6d5441f930046d08c3297f362"
+        sha256 "730fe304b241c6e860901b4a33d7db4e94663ae0adba1f256a1817f75c73165b"
       end
     end
   
